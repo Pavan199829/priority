@@ -1,0 +1,32 @@
+*
+{
+    background-color: bisque;
+    color: black;
+}
+.container{
+    height: 500px;
+    width: 500px;
+    border: 1px solid black;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px; 
+    background-image: url(http://thewowstyle.com/wp-content/uploads/2015/01/nature-images.jpg);
+    background-size:1000px;
+  
+}
+   
+.child
+{
+    height: 100px;
+    width: 100px;
+    color: white;
+    background-color: brown;
+    border: 1px;
+}
+.child1{
+    flex-grow: 2;
+}
+.Menu {
+    background-color: aqua;
+}
