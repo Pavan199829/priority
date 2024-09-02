@@ -1,35 +1,78 @@
 *
 {
-    border: 1px solid black;
-    box-sizing: border-box;
+    border: 1px solid rgb(186, 208, 246);
+    /*box-sizing: border-box;*/
+    border: none;
+    border-style: none;
 }
-h1{
+.cl{
     text-align: center;
-    margin: 20px;
+    font-family:var(rgb(1, 1, 31));
+    color: rgb(233, 223, 23);
+   margin: 20px;
     padding: 50px;
     text-decoration-color: rgb(12, 12, 238);
-    background:radial-gradient(blue, red, yellow,green, gold,pink,purple);
+    background:radial-gradient(rgb(231, 231, 236), rgb(229, 196, 238), yellow,rgb(48, 234, 48), gold,rgb(240, 180, 190),rgb(234, 48, 234));
+    text-shadow: 4cap;
+    
 }
 .menu li
 {
     display: inline;
-    background-color: aqua;
+    display:inline-flex;
+    background-color: rgb(0, 234, 255);
+    text-decoration: black;
+    text-justify:initial;
+
+}
+.search-button{
+    display: inline;
+}
+.search-container{
+    display: inline;
+    margin-left: 49%;
 }
 p{
     text-transform: capitalize;
+    text-indent: 50px;
+    display: block;
+    margin-bottom: 20px;
+    /*background-color: rgb(246, 230, 241);*/
+    color: rgb(199, 36, 7);
+
+
 }
 .col1{
-    background-color:gainsboro;
-    padding: 20px;
-    box-sizing: border-box;
+    /*background-color:rgba(132, 138, 133, 0.688);
+    padding: 5px;*/
+   box-sizing: border-box;
     position: sticky;
+    text-shadow: 20px;
+}
+.colo:hover{
+    background-color: #c4d8ee;
 }
 .menu{
     float: right;
     clear: both;
+    margin-top: 10px;
+    margin-right: 70px;
 }
 #data{
+    display: flex;
     clear: both;
+    justify-content: center;
+}
+
+#image{
+   display: block;
+    margin-right: 20px;
+}
+#data p::first-letter{
+    font-size: 2em;
+    font-weight: bold;
+    color: #000;
+    font-size: 2em;
 }
 html,body{
     margin: 0;
@@ -38,18 +81,119 @@ html,body{
     width: 100%;
 }
 .container{
+    /* width: 100%;
     max-width: 100%;
-    max-height: 100%;
-    justify-content: center;
+    max-height: 100%; */
+    /* justify-content: center;
     align-items: center;
     overflow: hidden;
+    background-size: 100% 100%; */
+    background-color: #d0cfcf;
+    padding: 20px;
+    justify-content: center;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(244, 8, 8, 10);
+    margin-top: 20px;
+    width: 100%;
+    max-width: 500px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+}
+label{
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+input, textarea{
+margin-bottom: 15px;
+padding: 10px;
+border: 1px solid#ddd;
+border-radius: 4px;
+font-size: 16px;
+}
+button{
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+
+}
+button:hover{
+    background-color: #0056b3;
 }
 #photo{
-    max-width: 100%;
+    background-size: 100% 100%;
+    background-size: contain, cover;
+    /* max-width: 100%;
     max-height: 100%;
     width: auto;
-    height: auto
+    height: auto */
+    
 }
-/* table{
+.colo{
+    background-color:rgb(240, 239, 225);
+    padding: 20px;
+    
+
+
+}
+h2{
+    color: rgb(6, 166, 166);
+    text-shadow: 2px 2px 3px yellow;
+
+}
+h1{
+    color: rgb(87, 83, 54);
+    text-shadow: 2px 2px 5px rgb(9, 219, 61);
+
+}
+.click{
+    padding: none;
+    /* background-color: rgb(232, 232, 239); */
+    display: inline;
+}
+table{
     border-collapse: collapse;
-  } */
+    background-color: rgb(190, 249, 139);
+  } 
+  .project1{
+    display: flex;
+    clear: both;
+    justify-content: center;
+    background-color: rgb(221, 221, 246);
+    
+  }
+  #bio{
+    margin-right: 30px;
+    /* background-color: #dfe0e0; */
+  }
+  .project2{
+    display: flex;
+    clear: both;
+    justify-content: center;
+    background-color: rgb(237, 237, 240);
+    
+    
+  }
+  #otk{
+    margin-right: 30px;
+  }
+  .project3{
+    display: flex;
+    clear: both;
+    justify-content: center;
+    background-color: rgb(215, 215, 221);
+    
+  }
+  #ta{
+    margin-right: 30px;
+  }
+  .prof{
+    background-color: #e988fa;
+    color: #007bff;
+  }
+
